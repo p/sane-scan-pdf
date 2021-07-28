@@ -3,6 +3,13 @@
 #   where imagefile is the data just scanned
 # (specify this script to scanadf via -S)
 
+set -x
+
+echo "$@"
+echo
+env
+echo
+
 usage()
 {
   echo "Usage: $0 <imagefile>"
